@@ -140,7 +140,7 @@ body {
     .footer .foot {
         display: flex;
         flex-direction: column;
-        height: 4em;
+        height: 6em;
         align-items: center;
         justify-content: space-between;
     }
