@@ -129,7 +129,7 @@ body {
 @media (max-width: 480px) {
     .main form input[type="text"]{
         background-color: #202124;
-        width: 30em;
+        width: 20em;
         height: 50px;
         border: 1px solid grey;
         border-radius: 25px;
