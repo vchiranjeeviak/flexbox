@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #202124;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.header{
+    display: flex;
+    justify-content: end;
+}
+
+.header .item {
+    margin: 1em 1em;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    padding-bottom: 5em;
+}
+
+.main form {
+    display: flex;
+    flex-direction: column;
+}
+
+.main form div {
+    margin-left: 10em;
+}
+
+.main form input[type="text"]{
+    background-color: #202124;
+    width: 50em;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    margin-top: 1em;
+    color: white;
+}
+
+.main form input[type="submit"] {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    background-color: #303134;
+    color: #e8eaed;
+    border: 1px solid #303134;
+    padding: 0.3em 0.5em;
+    margin-top: 1em;
+    margin-left: 5px;
+}
+
+.last{
+    height: 100px;
+    justify-items: end;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer a {
+    color: grey;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.footer .location {
+    display: flex;
+    color: grey;
+    height: 3em;
+    align-items: center;
+}
+
+.line {
+    border: 1px solid #202124;
+}
+
+.footer .foot {
+    display: flex;
+    height: 3em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot .foot-left, .foot-right {
+    display: flex;
+}
+
+.foot-item {
+    margin-left: 1em;
+}
+
+
+@media (max-width: 480px) {
+    .footer .foot {
+        display: flex;
+        flex-direction: column;
+        height: 3em;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
