@@ -128,11 +128,11 @@ body {
 
 @media (max-width: 480px) {
     .main form div {
-        margin-left: 8em;
+        margin-left: 7em;
     }
     .main form input[type="text"]{
         background-color: #202124;
-        width: 25em;
+        width: 22em;
         height: 50px;
         border: 1px solid grey;
         border-radius: 25px;
