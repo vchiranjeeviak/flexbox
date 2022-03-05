@@ -130,7 +130,7 @@ body {
     .main form input[type="text"]{
         background-color: #202124;
         width: 20em;
-        height: 50px;
+        height: 60px;
         border: 1px solid grey;
         border-radius: 25px;
         margin-top: 1em;
